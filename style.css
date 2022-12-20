@@ -1,10 +1,33 @@
+/*Task 1*/
+table, table * {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #230C0F;
+}
+
+tr:nth-child(1) {
+    background-color: #028f8f;
+}
+
+tr:nth-child(2) {
+    background-color: #f5f502;
+}
+
+tr:nth-child(1):hover {
+    background-color: #fd7070;
+}
+
+tr:nth-child(2):hover {
+    background-color: #0a0afd;
+}
+
+/*Task 2*/
 .position, .transform {
     display: inline-block;
+    margin: 50px;
 }
 
 .field {
-    margin-top: 50px;
-
     width: 200px;
     height: 200px;
     background-color: #DA291C;
@@ -36,15 +59,12 @@
     top: calc(200px / 16 * 6.5);
     left: calc(200px / 8 * 1.5);
 
+    /*Same effect*/
     /*left:0;*/
     /*right:0;*/
     /*top: 0;*/
     /*bottom: 0;*/
-    /*margin-left:auto;*/
-    /*margin-right:auto;*/
-    /*margin-top: auto;*/
-    /*margin-bottom: auto;*/
-
+    /*margin: auto;*/
 }
 
 .position .vertical-line {
@@ -53,15 +73,12 @@
     top: calc(200px / 8 * 1.5);
     left: calc(200px / 16 * 6.5);
 
+    /*Same effect*/
     /*left:0;*/
     /*right:0;*/
     /*top: 0;*/
     /*bottom: 0;*/
-
-    /*margin-left:auto;*/
-    /*margin-right:auto;*/
-    /*margin-top: auto;*/
-    /*margin-bottom: auto;*/
+    /*margin: auto;*/
 }
 
 .transform .horizontal-line {
